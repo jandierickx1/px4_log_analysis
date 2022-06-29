@@ -2,7 +2,7 @@
 A code to read and visualize PX4 Autopilot flight logs
 
 ## Required packages
-This codes uses the pyulog package to convert the .ulog files to CSV
+This codes uses the pyulog package to convert the .ulog files to .csv
 
 ```bash
 pip install pyulog
