@@ -9,7 +9,10 @@ pip install pyulog
 ```
 
 ## Usage
-Open the ```Example Notebook.ipynb``` file and adjust the log filename with your log file
+Open the ```Example Notebook.ipynb``` file and adjust the log filename with your log file. The file can be opened with:
 
 
+```bash
+jupyter notebook Example\ Notebook.ipynb
+```
 
