@@ -8,7 +8,8 @@ This codes uses the pyulog package to convert the .ulog files to .csv
 pip install pyulog
 ```
 
-
+## Usage
+Open the ```bash Example Notebook``` file and adjust the log filename with your log file
 
 
 
