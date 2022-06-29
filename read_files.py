@@ -3,7 +3,7 @@
 """
 Created on Fri May  6 11:45:57 2022
 
-@author: imago
+@author: Jan Dierickx
 """
 
 from functools import reduce
