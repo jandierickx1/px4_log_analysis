@@ -175,7 +175,6 @@ def read_log_file(filename, parameters):
         for ii in range(len(parameters)):
             data_frames.append(pd.read_csv(filename[:-4] + '_' + parameters[ii] + '.csv'))
             data_frames[ii].timestamp = pd.to_datetime(data_frames[ii]['timestamp'], unit='us')
-            #data_frames[ii].timestamp = pd.Series([val.time() for val in data_frames[ii].timestamp])
      
     finally:
         os.chdir('..')
